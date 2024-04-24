@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Party planner</title>
+    <link rel="stylesheet" href="party.css">
+</head>
+<body>
+    <h1>Event list</h1>
+    <form>
+        <label>
+            Add an event to the event list
+            <input id="name" placeholder="Name of event" type="text" />
+            <input id="description" placeholder="Description of the event" type="text"/>
+            <input id="date" type="date"/>
+            <input id="time" type="time"/>
+            <input id="location" placeholder="location" type="text"/>
+            <input id="id" placeholder="id number" type="number"/>
+        </label>
+        <button>Add event</button>
+    </form>
+    <section id="eventDisplay"></section>
+    <script src="party.js"></script>
+</body>
+</html>

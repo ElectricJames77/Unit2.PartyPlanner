@@ -1,0 +1,19 @@
+section{
+    display: flex;
+    display: grid;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    grid-template-columns: repeat(4, auto);
+}
+div{
+    height: 35vh;
+    width: 40vh;
+    overflow-y: scroll;
+    border-style: solid;
+    border-radius: 2px;
+    border-color: black;
+    margin: 2px;
+}
+p{
+    padding-left: 5px;
+}
